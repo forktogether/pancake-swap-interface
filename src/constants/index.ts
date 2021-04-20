@@ -1,4 +1,10 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@forktogether/pancakeswap-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
+
+export enum ChainId {
+  MAINNET = 56,
+  BSCTESTNET = 97,
+  KOVAN 42
+}
 
 export const ROUTER_ADDRESS = '0xe45a489d040Da08FBc0ebF4F976fDA6b8cA73DD2'
 
