@@ -7,21 +7,21 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const CAKE = new Token(ChainId.KOVAN, '0x1c1D00302e1D990348b491f826e05D79c48B26e4', 18, 'MILKY', 'MilkySwap Token')
-export const WBNB = new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped ETH')
-export const DAI = new Token(ChainId.KOVAN, '0xC4375B7De8af5a38a93548eb8453a498222C4fF2', 18, 'DAI', 'Dai Stablecoin')
-export const BUSD = new Token(ChainId.KOVAN, '0x942364e96D4482Bbb3b42a5A08310b5894077007', 18, 'BUSD', 'Binance USD')
-export const BTCB = new Token(ChainId.KOVAN, '0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9', 18, 'BTCB', 'Binance BTC')
-export const USDT = new Token(ChainId.KOVAN, '0xf3e0d7bF58c5d455D31ef1c2d5375904dF525105', 18, 'USDT', 'Tether USD')
+export const CAKE = new Token(ChainId.MAINNET, '0x1c1D00302e1D990348b491f826e05D79c48B26e4', 18, 'MILKY', 'MilkySwap Token')
+export const WBNB = new Token(ChainId.MAINNET, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped ETH')
+export const DAI = new Token(ChainId.MAINNET, '0xC4375B7De8af5a38a93548eb8453a498222C4fF2', 18, 'DAI', 'Dai Stablecoin')
+export const BUSD = new Token(ChainId.MAINNET, '0x942364e96D4482Bbb3b42a5A08310b5894077007', 18, 'BUSD', 'Binance USD')
+export const BTCB = new Token(ChainId.MAINNET, '0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9', 18, 'BTCB', 'Binance BTC')
+export const USDT = new Token(ChainId.MAINNET, '0xf3e0d7bF58c5d455D31ef1c2d5375904dF525105', 18, 'USDT', 'Tether USD')
 export const UST = new Token(
-  ChainId.KOVAN,
+  ChainId.MAINNET,
   '0xf3e0d7bF58c5d455D31ef1c2d5375904dF525105',
   18,
   'UST',
   'Wrapped UST Token'
 )
 export const ETH = new Token(
-  ChainId.KOVAN,
+  ChainId.MAINNET,
   '0xd0A1E359811322d97991E03f863a0C30C2cF029C',
   18,
   'ETH',
