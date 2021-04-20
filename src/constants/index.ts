@@ -1,4 +1,4 @@
-import { ChianId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
+import { ChianId, JSBI, Percent, Token, WETH } from 'forktogether/pancakeswap-sdk'
 
 export const ROUTER_ADDRESS = '0xe45a489d040Da08FBc0ebF4F976fDA6b8cA73DD2'
 
