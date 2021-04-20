@@ -1,28 +1,28 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F'
+export const ROUTER_ADDRESS = '0xe45a489d040Da08FBc0ebF4F976fDA6b8cA73DD2'
 
 // a list of tokens by chain
 type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const CAKE = new Token(ChainId.MAINNET, '0x9fd17523D96D57a134F1F2F96bfb98041d965022', 18, 'CAKE', 'PancakeSwap Token')
-export const WBNB = new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
-export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
-export const BUSD = new Token(ChainId.MAINNET, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
-export const BTCB = new Token(ChainId.MAINNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Binance BTC')
-export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'USDT', 'Tether USD')
+export const CAKE = new Token(ChainId.KOVAN, '0x1c1D00302e1D990348b491f826e05D79c48B26e4', 18, 'MILKY', 'MilkySwap Token')
+export const WBNB = new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped ETH')
+export const DAI = new Token(ChainId.KOVAN, '0xC4375B7De8af5a38a93548eb8453a498222C4fF2', 18, 'DAI', 'Dai Stablecoin')
+export const BUSD = new Token(ChainId.KOVAN, '0x942364e96D4482Bbb3b42a5A08310b5894077007', 18, 'BUSD', 'Binance USD')
+export const BTCB = new Token(ChainId.KOVAN, '0xA0A5aD2296b38Bd3e3Eb59AAEAF1589E8d9a29A9', 18, 'BTCB', 'Binance BTC')
+export const USDT = new Token(ChainId.KOVAN, '0xf3e0d7bF58c5d455D31ef1c2d5375904dF525105', 18, 'USDT', 'Tether USD')
 export const UST = new Token(
-  ChainId.MAINNET,
-  '0x23396cF899Ca06c4472205fC903bDB4de249D6fC',
+  ChainId.KOVAN,
+  '0xf3e0d7bF58c5d455D31ef1c2d5375904dF525105',
   18,
   'UST',
   'Wrapped UST Token'
 )
 export const ETH = new Token(
-  ChainId.MAINNET,
-  '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+  ChainId.KOVAN,
+  '0xd0A1E359811322d97991E03f863a0C30C2cF029C',
   18,
   'ETH',
   'Binance-Peg Ethereum Token'
