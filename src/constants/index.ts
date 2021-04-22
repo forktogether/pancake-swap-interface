@@ -2,7 +2,7 @@ import { ChainId, JSBI, Percent, Token, WETH } from '@cheflego/justafork-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 // import { bsc, fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
-import { injected, bsc } from '../connectors'
+//import { injected, bsc } from '../connectors'
 
 // TODO
 export const ROUTER_ADDRESS = process.env.REACT_APP_ROUTER_ADDRESS || '0x6eBb5A94138286c11E9f9406C73d27Fa8f9b02ea'
