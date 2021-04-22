@@ -1,6 +1,7 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@cheflego/justafork-sdk'
 
-export const ROUTER_ADDRESS = '0x6eBb5A94138286c11E9f9406C73d27Fa8f9b02ea'
+//export const ROUTER_ADDRESS = '0x6eBb5A94138286c11E9f9406C73d27Fa8f9b02ea' 
+export const ROUTER_ADDRESS = '0x0841BD0B734E4F5853f0dD8d7Ea041c241fb0Da6'
 
 // a list of tokens by chain
 type ChainTokenList = {
