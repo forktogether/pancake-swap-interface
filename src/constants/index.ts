@@ -29,7 +29,7 @@ export const ETH = new Token(
 )
 
 const WETH_ONLY: ChainTokenList = {
-  [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]],
+  [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
   [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]],
 }
 
