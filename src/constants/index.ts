@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@cheflego/justafork-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '../sdk'
 
 export const ROUTER_ADDRESS = '0x6eBb5A94138286c11E9f9406C73d27Fa8f9b02ea'
 
