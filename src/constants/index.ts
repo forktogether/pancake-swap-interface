@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@apeswapfinance/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@cheflego/justafork-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 // import { bsc, fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
